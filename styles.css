@@ -371,7 +371,7 @@ body.night-mode {
     align-items: center;
 }
 
-.projet_grid:hover {
+.projet_grid a:hover {
     border: 3px solid #173b6c;
     border-radius: 20px;
 }
