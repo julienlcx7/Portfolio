@@ -198,7 +198,13 @@ body.night-mode {
     justify-content: center;
     gap: 2rem;
 }
-
+.logo{
+    width: 40px;
+    height: 40px;
+    object-fit: contain; /* Ajuste l'image sans la déformer */
+    vertical-align: middle; /* Alignement avec les autres icônes */
+    filter: none;
+}
 .btn button {
     background-color: #173b6c;
     border: none;
@@ -348,11 +354,7 @@ body.night-mode {
     align-items: center;
 }
 
-.element_grid img {
-    border-radius: 20px;
-    width: 80%;
-    filter: drop-shadow(-7px 16px 13px #707070);
-}
+
 
 .fa-brands {
     font-size: 40px;
